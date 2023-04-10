@@ -92,5 +92,5 @@
 	url = ../../espressif/esp-coex-lib.git
 
 [submodule "components/esp_platform"]
-	path = components
-	url = https://gitlab.com/dung16bk/esp-platform
+	path = components/esp_platform
+	url = https://gitlab.com/dung16bk/esp-platform.git
