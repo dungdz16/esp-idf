@@ -6,3 +6,4 @@ list(APPEND EXTRA_COMPONENT_DIRS "$ENV{IDF_PATH}/components/driver/test_apps/com
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(unit-test-app)
+target_add_binary_data(unit-test-app.elf $ENV{IDF_PATH}/components/esp_platform/cert/ca.pem TEXT)
