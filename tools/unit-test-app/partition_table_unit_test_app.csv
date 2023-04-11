@@ -13,5 +13,6 @@ ota_1,      0,    ota_1,    ,        64K
 # flash_test partition used for SPI flash tests, WL FAT tests, and SPIFFS tests
 flash_test, data, fat,      ,        528K
 nvs_key,    data, nvs_keys, ,        0x1000, encrypted
-
+syslog, data, nvs,	, 0x30000,
+schedule, data, nvs,    ,0x1000,
 # Note: still 1MB of a 4MB flash left free for some other purpose

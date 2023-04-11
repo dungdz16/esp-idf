@@ -94,3 +94,4 @@
 [submodule "components/esp_platform"]
 	path = components/esp_platform
 	url = https://gitlab.com/dung16bk/esp-platform
+	ignore = dirty
